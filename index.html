@@ -10,6 +10,15 @@
 <body>
     <button type="button" id="connect">Connect wallet</button>
     <button type="button" id="balance">Log USDC</button>
+    <hr>
+    <h3>Transfer USDC</h3>
+    To:
+    <input type="text" id="to">
+    Amount: 
+    <input type="number" id="amount">
+    <button type="button" id="transact" disabled>Transact</button>
+    <hr>
+    <button type="button" id="permit">Sign Permit</button>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.8.1/ethers.umd.min.js"
